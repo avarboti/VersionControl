@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 
 namespace Fejlesztesi_mintak.Entities
 {
-    public class BallFactory 
+    public class Car : Toy
     {
-        public Toy CreateNew()
+        protected override void DrawImage(Graphics g)
         {
-            return new Ball(BallColor);
+            Image imageFile = Image.FromFile("Images/car.png");
+            g.DrawImage(imageFile, new Rectangle(0, 0, Width, Height));
         }
-        public Color BallColor { get; set; }
-
     }
 }
-
