@@ -8,14 +8,12 @@ using System.Threading.Tasks;
 
 namespace Fejlesztesi_mintak.Entities
 {
-    public class BallFactory 
+    public class BallFactory : IToyFactory
     {
         public Toy CreateNew()
         {
-            return new Ball(BallColor);
+            return new Ball();
         }
-        public Color BallColor { get; set; }
-
     }
 }
 
