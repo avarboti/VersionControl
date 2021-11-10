@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fejlesztesi_mintak", "Fejlesztesi_mintak\Fejlesztesi_mintak.csproj", "{DDB3180E-982D-42A7-89CA-C7290248CBFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDB3180E-982D-42A7-89CA-C7290248CBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB3180E-982D-42A7-89CA-C7290248CBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB3180E-982D-42A7-89CA-C7290248CBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB3180E-982D-42A7-89CA-C7290248CBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E402FF0E-6A94-4170-ABAE-305DA368FA26}
+	EndGlobalSection
+EndGlobal
