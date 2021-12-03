@@ -33,7 +33,7 @@ namespace Mikroszimulacio
                 
                 for (int i = 0; i < Population.Count; i++)
                 {
-                    
+                    SimStep(year, Population[i]);
                 }
 
                 int nbrOfMales = (from x in Population
@@ -152,5 +152,38 @@ namespace Mikroszimulacio
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            male.Clear();
+            female.Clear();
+            richTextBox1.Clear();
+
+
+            Simulation();
+
+            DisplayResults();
+
+        }
+
+        private void DisplayResults()
+        {
+            for (int i = 0; i < (numericUpDown1.Value - 2005); i++)
+            {
+
+                richTextBox1.Text += "Szimulációs év: " + (2005 + i) + "\n" + "\t" + "Fiúk: " + male.Count() + "\n" + "\t" + "Lányok: " + female.Count() + "\n";
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                textBox1.Text = ofd.FileName;
+            }
+        }
+
     }
 }
