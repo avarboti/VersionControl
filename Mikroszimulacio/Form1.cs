@@ -20,6 +20,8 @@ namespace Mikroszimulacio
         List<Person> Population = new List<Person>();
         List<BirthProbability> BirthProbabilities = new List<BirthProbability>();
         List<DeathProbability> DeathProbabilities = new List<DeathProbability>();
+        List<Person> male = new List<Person>();
+        List<Person> female = new List<Person>();
         public Form1()
         {
             InitializeComponent();
@@ -160,7 +162,7 @@ namespace Mikroszimulacio
             richTextBox1.Clear();
 
 
-            Simulation();
+          
 
             DisplayResults();
 
