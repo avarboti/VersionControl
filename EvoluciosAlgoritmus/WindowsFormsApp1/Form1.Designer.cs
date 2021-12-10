@@ -38,17 +38,17 @@ namespace WindowsFormsApp1
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(556, 352);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(63, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "1.generáció";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(383, 342);
+            this.button1.Location = new System.Drawing.Point(380, 347);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
